@@ -87,7 +87,7 @@ const isomorphicBundleOptions: esbuild.BuildOptions = {
   entryPoints: ["src/index.ts"],
   bundle: true,
   platform: "neutral",
-  target: "es2020",
+  target: ['node16'], //"es2020",
   outfile: "dist/bundle.js",
   format: "esm",
   external: ["./src/nodeEntry", "pdfjs-dist", "canvas", "node-html-markdown"],
