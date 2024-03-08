@@ -98,10 +98,10 @@ const nodeBundleOptions = {
   entryPoints: ["src/nodeEntry.ts"],
   bundle: true,
   platform: "node",
-  target: "es2020",
+  target: ['node16'], //"es2020",
   outfile: "dist/nodeEntry.cjs",
   format: "cjs",
-  external: ["pdfjs-dist", "canvas", "node-html-markdown"],
+  external: ["canvas", "node-html-markdown"],
   plugins: [] as esbuild.Plugin[],
 } satisfies esbuild.BuildOptions;
 
