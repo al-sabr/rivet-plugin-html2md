@@ -31,5 +31,21 @@
   },
   "rivet": {
     "skipInstall": false
-  }
+  },
+  "description": "<h1 align=\"center\"><img src=\"https://rivet.ironcladapp.com/img/logo-banner-wide.png\" alt=\"Rivet Logo\"></h1>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-sabr/rivet-plugin-html2md.git"
+  },
+  "keywords": [
+    "rivet",
+    "ironclad",
+    "plugin"
+  ],
+  "author": "R.E. Bekrek",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/al-sabr/rivet-plugin-html2md/issues"
+  },
+  "homepage": "https://github.com/al-sabr/rivet-plugin-html2md#readme"
 }
